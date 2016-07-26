@@ -3,6 +3,13 @@ from setuptools import setup
 setup(
     name='gbdxcli',
     version='0.0.3',
+    description='GBDX command line interface.',
+    classifiers=[],
+    keywords='',
+    author='Donny Marino',
+    author_email='dmarino@digitalglobe.com',
+    url='https://github.com/DigitalGlobe/gbdxcli',
+    license='MIT',
     install_requires=[
         'Click',
         'gbdxtools',
@@ -15,3 +22,5 @@ setup(
     '''
 
 )
+
+
